@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header, footer {
+    background-color: blueviolet;
+    color: white
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo a img {
+    padding: 50px;
+}
+
+.logo p {
+    color: white;
+    text-align: center;
+}
+
+.header-menu {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+header nav ul li a{
+    color: white;
+    padding: 0 15px;
+}
+
+.titulo-imagem {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.titulo-imagem img {
+    border-radius: 20%;
+}
+
+.gatos {
+    text-align: center;
+    display: inline;
+    padding: 20px;
+}
+
+.main-text {
+    background-color: grey;
+    padding: 20px 10px;
+    color: white;
+}
+
+.endereco {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.endereco iframe {
+    padding-top: 20px;
+}
+
+.main-text p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+address {
+    padding-top: 20px;
+} 
+

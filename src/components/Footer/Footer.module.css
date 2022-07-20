@@ -1,0 +1,15 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: left;
+    padding: 30px;
+    text-decoration: none;
+    list-style: none;
+    background-color: blueviolet;
+}
+
+footer nav ul li a {
+    color: #fff;
+    padding-top: 50px;
+}

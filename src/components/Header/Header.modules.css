@@ -1,0 +1,42 @@
+header {
+    background-color: blueviolet;
+    color: white
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo a img {
+    padding: 50px;
+}
+
+.logo p {
+    color: white;
+    text-align: center;
+}
+
+.header-menu {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+header nav ul li a{
+    color: white;
+    padding: 0 15px;
+}
